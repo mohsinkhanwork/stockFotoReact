@@ -21,10 +21,11 @@
         </style>
     </head>
     <body class="antialiased">
-       <h1>
-        this is the test h1
-       </h1>
+       {{--  <h1>
+        this is the welcome page
+       </h1>  --}}
        <div id="example"></div>
+       <div id="hello"></div>
        <script src="{{ mix('js/app.js') }}"></script>
     </body>
 </html>
